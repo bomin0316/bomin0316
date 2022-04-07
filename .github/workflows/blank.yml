@@ -1,4 +1,4 @@
-name: DataStudy
+name: Metrics
 on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.DataStudy_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
